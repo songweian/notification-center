@@ -1,0 +1,39 @@
+myproject/
+├── cmd/
+│   ├── admin/
+│   │   └── main.go
+│   ├── server/
+│   │   └── main.go
+│   ├── client/
+│   │   └── main.go
+│   └── myproject/
+│       └── main.go
+├── internal/
+│   ├── admin/
+│   │   ├── handler.go
+│   │   └── ...
+│   ├── server/
+│   │   ├── handler.go
+│   │   └── ...
+│   ├── client/
+│   │   ├── handler.go
+│   │   └── ...
+│   └── myproject/
+│       ├── handler.go
+│       └── ...
+├── pkg/
+│   ├── admin/
+│   │   ├── admin.go
+│   │   └── ...
+│   ├── server/
+│   │   ├── server.go
+│   │   └── ...
+│   ├── client/
+│   │   ├── client.go
+│   │   └── ...
+│   └── myproject/
+│       ├── myproject.go
+│       └── ...
+├── vendor/
+├── go.mod
+└── go.sum
